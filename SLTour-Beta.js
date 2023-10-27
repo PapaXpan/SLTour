@@ -239,15 +239,6 @@ function introTour(language) {
   observeHelperLayer();
 }
 
-var player=GetPlayer();
-var selectFrench = player.GetVar('selectFrench'); // Set this to true or false based on your condition
-
-if (selectFrench) {
-  introTour('french');
-} else {
-  introTour('english');
-}
-
 
 /* comments: 
 
