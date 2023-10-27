@@ -239,15 +239,6 @@ function introTour(language) {
   observeHelperLayer();
 }
 
-var player=GetPlayer();
-var selectFrench = player.GetVar('selectFrench'); // Set this to true or false based on your condition
-
-if (selectFrench) {
-  introTour('french');
-} else {
-  introTour('english');
-}
-
 /* comments: 
 
 1. You can update the language parameter in the function to match your preferred language, such as 'english', 'urdu', 'arabic', 'dutch', 'spanish', 'french', 'mandarin', or 'portuguese'.
