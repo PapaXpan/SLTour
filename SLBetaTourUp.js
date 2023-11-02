@@ -68,7 +68,7 @@ function introTour(language) {
       portuguese: 'Esses controles permitem que você reproduza ou pause a reprodução dos slides. Você pode controlar o ritmo do conteúdo do curso com base em suas preferências.'
     },
     volume: {
-      english: 'This button allows you to enable or disable captions for the course content. Click on it to toggle captions on or off.',
+      english: 'Measure of the intensity of a sound relative to a reference value.',
       arabic: 'هذا الزر يسمح لك بتمكين أو تعطيل الشرح لمحتوى الدورة. انقر عليه لتبديل الشرح تشغيل أو إيقاف.',
       urdu: 'اس بٹن کی مدد سے آپ کورس کی مواد کے لئے شرح کو فعال یا غیرفعال کرسکتے ہیں. اس پر کلک کریں تاکہ شرح کو آن یا آف کریں.',
       dutch: 'Deze knop stelt u in staat om bijschriften voor de cursusinhoud in of uit te schakelen. Klik erop om bijschriften aan of uit te zetten.',
@@ -78,7 +78,7 @@ function introTour(language) {
       portuguese: 'Este botão permite que você habilite ou desabilite legendas para o conteúdo do curso. Clique nele para ativar ou desativar as legendas.'
     },
      captions: {
-      english: 'Measure of the intensity of a sound relative to a reference value.',
+      english: 'This button allows you to enable or disable captions for the course content. Click on it to toggle captions on or off.',
       arabic: 'هذا الزر يسمح لك بتمكين أو تعطيل الشرح لمحتوى الدورة. انقر عليه لتبديل الشرح تشغيل أو إيقاف.',
       urdu: 'اس بٹن کی مدد سے آپ کورس کی مواد کے لئے شرح کو فعال یا غیرفعال کرسکتے ہیں. اس پر کلک کریں تاکہ شرح کو آن یا آف کریں.',
       dutch: 'Deze knop stelt u in staat om bijschriften voor de cursusinhoud in of uit te schakelen. Klik erop om bijschriften aan of uit te zetten.',
