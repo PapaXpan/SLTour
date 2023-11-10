@@ -235,6 +235,11 @@ function introTour(language) {
       }
       
     ],
+    
+    nextLabel:'>',
+    prevLabel:'<',
+    nextToDone: false,
+    
   }).start();
   observeHelperLayer();
 }
