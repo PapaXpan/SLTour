@@ -257,7 +257,12 @@ function introTour(language) {
         title: translations['titles'][language]['next'],
       }
       
-    ],   
+    ], 
+    
+    nextLabel:'>',
+    prevLabel:'<',
+    nextToDone: false,
+    
   }).start();
   observeHelperLayer();
 }
