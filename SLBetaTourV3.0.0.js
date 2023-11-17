@@ -108,7 +108,7 @@ function introTour(language) {
       portuguese: 'Para avançar para o próximo slide, clique no botão "Próximo". Ele o levará para o próximo tópico ou módulo no curso.'
     },
     prev: {
-      english: 'If you want to return to the last slide, select the "Previous" button.',
+      english: 'If you want to return to the last slide, select the previous button.',
       arabic: 'إذا كنت ترغب في العودة إلى الشريحة السابقة، استخدم زر "السابق". سيوجهك إلى الموضوع أو الوحدة السابقة.',
       urdu: 'اگر آپ پچھلی سلائیڈ پر واپس جانا چاہتے ہیں تو "پچھلا" بٹن استعمال کریں. یہ آپ کو کورس میں پچھلے موضوع یا ماڈیول پر نیویگیٹ کرے گا.',
       dutch: 'Als je terug wilt naar de vorige dia, gebruik dan de knop "Vorige". Het zal je naar het vorige onderwerp of module navigeren.',
@@ -127,7 +127,7 @@ function introTour(language) {
         captions: 'Captions',
         full: 'Full-screen mode',
         next: 'Next Slide Button',
-        prev: 'Prev Slide Button'
+        prev: 'Previous Slide Button'
       },
       arabic: {
         slide: 'الشريحة',
