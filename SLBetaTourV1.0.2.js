@@ -26,6 +26,7 @@ function observeHelperLayer() {
 observeHelperLayer();
 
 function introTour(language) {
+  var checkResources = false; // Add your condition for checking resources
   var translations = {
     intro: {
       english: 'Welcome to the course! This is the slide area where the course content will be displayed. Use the navigation buttons to move between slides.',
