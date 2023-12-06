@@ -259,14 +259,19 @@ function introTour(language) {
       
     ], 
     
-    nextLabel:'>',
-    prevLabel:'<',
+    nextLabel: '>',
+    prevLabel: '<',
     nextToDone: false,
-    
-  }).start();
+  };
+
+  if (checkResources) {
+    options.skipLabel = "resources";
+  }
+
+  introJs().setOptions(options).start();
+
   observeHelperLayer();
 }
-
 
 /* comments: 
 
