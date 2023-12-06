@@ -209,7 +209,7 @@ function introTour(language) {
     }
   }
 
-  introJs().setOptions({
+  var options = {
     steps: [
       {
         element: '.acc-blocker',
@@ -257,16 +257,20 @@ function introTour(language) {
         title: translations['titles'][language]['next'],
       }
       
-    ], 
-    
-    nextLabel:'>',
-    prevLabel:'<',
+    ],
+    nextLabel: '>',
+    prevLabel: '<',
     nextToDone: false,
-    
-  }).start();
+  };
+
+  if (checkResources) {
+    options.skipLabel = 'resources';
+  }
+
+  introJs().setOptions(options).start();
+
   observeHelperLayer();
 }
-
 
 /* comments: 
 
