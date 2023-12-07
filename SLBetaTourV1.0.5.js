@@ -1,7 +1,5 @@
 //Developed by: @PapaMbao
 
-//Developed by: @PapaMbao
-
 function updateHelperCSS() {
   var helperLayer = document.querySelector('.introjs-helperLayer');
   if (helperLayer) {
