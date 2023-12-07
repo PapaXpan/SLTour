@@ -1,5 +1,7 @@
 //Developed by: @PapaMbao
 
+//Developed by: @PapaMbao
+
 function updateHelperCSS() {
   var helperLayer = document.querySelector('.introjs-helperLayer');
   if (helperLayer) {
@@ -26,7 +28,6 @@ function observeHelperLayer() {
 observeHelperLayer();
 
 function introTour(language) {
-  var checkResources = {}; 
   var translations = {
     intro: {
       english: 'Welcome to the course! This is the slide area where the course content will be displayed. Use the navigation buttons to move between slides.',
@@ -210,7 +211,7 @@ function introTour(language) {
     }
   }
 
-  var options = {
+  introJs().setOptions({
     steps: [
       {
         element: '.acc-blocker',
@@ -258,16 +259,16 @@ function introTour(language) {
         title: translations['titles'][language]['next'],
       }
       
-    ],
-    nextLabel: '>',
-    prevLabel: '<',
+    ], 
+    
+    nextLabel:'>',
+    prevLabel:'<',
     nextToDone: false,
-  };
-
-  introJs().setOptions(options).start();
-
+    
+  }).start();
   observeHelperLayer();
 }
+
 
 /* comments: 
 
