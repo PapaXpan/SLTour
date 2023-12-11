@@ -327,6 +327,8 @@ function introTour(language) {
   }).start();
   observeHelperLayer();
 }
+var player = GetPlayer();
+var selectMultilanguage = player.GetVar('selectMultilanguage');
 
 /* comments: 
 
