@@ -21,7 +21,7 @@ var css = `
 } `;
 
 addCssToHead(css);
-function nrzMagnify(image_, zoomLevel = 4, magnifierSize = 250) {
+function zoomMagnify(image_, zoomLevel = 4, magnifierSize = 250) {
   const magnifier = document.createElement('div');
   magnifier.id = 'magnifier';
   document.body.appendChild(magnifier);
