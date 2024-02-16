@@ -21,6 +21,7 @@ var css = `
 } `;
 
 addCssToHead(css);
+
 function zoomMagnify(image_, zoomLevel = 4, magnifierSize = 250) {
   const magnifier = document.createElement('div');
   magnifier.id = 'magnifier';
@@ -38,17 +39,16 @@ function zoomMagnify(image_, zoomLevel = 4, magnifierSize = 250) {
     if (targetElement) {
       const touch = event.touches[0];
       updateMagnifierPosition(touch.pageX, touch.pageY);
-      event.preventDefault(); 
+      event.preventDefault();
     }
-  }, {passive: false}); 
+  }, { passive: false });
 
   document.querySelectorAll(`[data-acc-text='${image_}']`).forEach(element => {
     element.addEventListener('mouseenter', startMagnifierEvent);
     element.addEventListener('mouseleave', stopMagnifier);
 
-   
-    element.addEventListener('touchstart', startMagnifierEvent, {passive: true});
-    
+    element.addEventListener('touchstart', startMagnifierEvent, { passive: true });
+
     element.addEventListener('touchend', stopMagnifier);
   });
 
@@ -57,7 +57,7 @@ function zoomMagnify(image_, zoomLevel = 4, magnifierSize = 250) {
       const touch = event.touches[0];
       updateMagnifierPosition(touch.pageX, touch.pageY);
     }
-    targetElement = this; 
+    targetElement = this;
     startMagnifier(targetElement);
   }
 
